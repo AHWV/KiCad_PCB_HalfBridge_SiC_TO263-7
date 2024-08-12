@@ -1,0 +1,239 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "3c187ffa-7f66-4861-b077-b6965c821fc2")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 132.08 63.5) (xy 144.78 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c27de46-ae5b-45c1-8ce3-ba8ef2b6e308")
+	)
+	(wire
+		(pts
+			(xy 132.08 58.42) (xy 144.78 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46238f00-cbf0-4305-9dbf-a5f7b9072891")
+	)
+	(wire
+		(pts
+			(xy 132.08 60.96) (xy 144.78 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b18520f6-6329-4fa0-9b9b-957a837f76c4")
+	)
+	(wire
+		(pts
+			(xy 132.08 55.88) (xy 144.78 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2cb3e57-7889-4597-8aee-2a10ce105b2b")
+	)
+	(sheet
+		(at 92.71 53.34)
+		(size 39.37 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8af60660-0838-42a2-a499-fc014bb54766")
+		(property "Sheetname" "HalfBridge_GateDriver"
+			(at 92.71 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "HalfBridge_GateDriver.kicad_sch"
+			(at 92.71 66.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "gl" output
+			(at 132.08 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "769fe7ff-99e4-493a-84a0-c4c78c0aa416")
+		)
+		(pin "kh" output
+			(at 132.08 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "77a616c5-91c7-4c1d-a990-9c55bbce66e5")
+		)
+		(pin "gh" output
+			(at 132.08 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1380c96c-9c29-4ae0-986a-1a183ef0c974")
+		)
+		(pin "kl" output
+			(at 132.08 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3c0859b0-1d99-486e-9e19-aa569676d7b3")
+		)
+		(instances
+			(project "HalfBridge_SiC"
+				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 144.78 46.99)
+		(size 33.02 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e430685f-ad0a-4a48-becd-63dd913bcc64")
+		(property "Sheetname" "HalfBridge_Power"
+			(at 144.78 46.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "HalfBridge_Power.kicad_sch"
+			(at 144.78 66.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ph" output
+			(at 177.8 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "21366523-3a12-42c9-8d27-76234f0e1500")
+		)
+		(pin "dcp" input
+			(at 144.78 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4992e1fc-2a0f-4cc9-8fce-ef3ebe6e7aa1")
+		)
+		(pin "dcn" input
+			(at 144.78 50.8 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "09b214c1-692c-4ec4-89dd-23073db1098e")
+		)
+		(pin "gh" input
+			(at 144.78 55.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6f86b3e5-601c-4422-a520-187d9cf75616")
+		)
+		(pin "kh" input
+			(at 144.78 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ca49f85a-e44d-48e8-8995-f37ecc6bcbe9")
+		)
+		(pin "gl" input
+			(at 144.78 60.96 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "446e7098-e95e-452d-a847-64f7fa0242ca")
+		)
+		(pin "kl" input
+			(at 144.78 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0d70ef4e-9fb4-44e9-8e63-a2e54bbd4625")
+		)
+		(instances
+			(project "HalfBridge_SiC"
+				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
