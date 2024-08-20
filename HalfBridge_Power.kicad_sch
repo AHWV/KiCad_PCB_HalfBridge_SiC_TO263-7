@@ -678,12 +678,6 @@
 		(uuid "0bfc8fee-72a3-4d18-b382-64ec16af73ae")
 	)
 	(junction
-		(at 132.08 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "18522011-7571-4b77-9fba-c9ab5ba33c3a")
-	)
-	(junction
 		(at 158.75 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -702,22 +696,10 @@
 		(uuid "3b03469b-951b-4819-bd03-2776415ddb8f")
 	)
 	(junction
-		(at 132.08 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "71b3487b-7ec0-4faa-8079-a06418d2b978")
-	)
-	(junction
 		(at 190.5 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8392ff54-4b9f-4b6a-a582-4bf6026de458")
-	)
-	(junction
-		(at 132.08 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "858a116b-2e48-4439-9239-ea32f85cb2ae")
 	)
 	(junction
 		(at 177.8 63.5)
@@ -791,7 +773,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 63.5) (xy 146.05 63.5)
+			(xy 114.3 63.5) (xy 146.05 63.5)
 		)
 		(stroke
 			(width 0)
@@ -808,16 +790,6 @@
 			(type default)
 		)
 		(uuid "1c0b97d4-233f-4485-b796-d0b7033d205a")
-	)
-	(wire
-		(pts
-			(xy 132.08 50.8) (xy 132.08 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20b9216e-19c8-4036-88dd-3a136cc9cf3a")
 	)
 	(wire
 		(pts
@@ -838,16 +810,6 @@
 			(type default)
 		)
 		(uuid "325ee9a2-a5c3-4bdb-a3b4-bad804a7d90c")
-	)
-	(wire
-		(pts
-			(xy 132.08 49.53) (xy 132.08 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "391c9c91-9105-4d3c-be84-35365985d5de")
 	)
 	(wire
 		(pts
@@ -878,26 +840,6 @@
 			(type default)
 		)
 		(uuid "5b0fd603-d0f7-443d-8cf7-17a36cc15d31")
-	)
-	(wire
-		(pts
-			(xy 114.3 63.5) (xy 132.08 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b2a846d-11a1-4160-8361-b53db4d9d748")
-	)
-	(wire
-		(pts
-			(xy 132.08 38.1) (xy 132.08 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65799371-8960-4cdd-9b39-4f186c9a6e1d")
 	)
 	(wire
 		(pts
@@ -971,7 +913,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 38.1) (xy 146.05 38.1)
+			(xy 114.3 38.1) (xy 146.05 38.1)
 		)
 		(stroke
 			(width 0)
@@ -988,16 +930,6 @@
 			(type default)
 		)
 		(uuid "b394f3f1-f602-4a96-b49c-6fbe0c7afd06")
-	)
-	(wire
-		(pts
-			(xy 114.3 38.1) (xy 132.08 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b48d14a8-f039-4c06-a96d-19a4bc47e136")
 	)
 	(wire
 		(pts
@@ -1058,16 +990,6 @@
 			(type default)
 		)
 		(uuid "f271a9dd-d3bf-4f58-935b-56a9ba29a63c")
-	)
-	(wire
-		(pts
-			(xy 132.08 59.69) (xy 132.08 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f35e50e8-e1cd-4a71-b173-2cd179fa6c46")
 	)
 	(wire
 		(pts
@@ -1307,76 +1229,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 132.08 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "22740cc2-e9ee-4f90-9c04-9fc9c755e4e7")
-		(property "Reference" "C6"
-			(at 135.89 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 135.89 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D17.0mm_P7.50mm"
-			(at 133.0452 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 132.08 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 132.08 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2a809b5f-8298-4fdf-a917-7e3945c4fb8f")
-		)
-		(pin "2"
-			(uuid "991facb2-8241-4a5a-8152-3f529ea455c0")
-		)
-		(instances
-			(project "HalfBridge_SiC"
-				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/e430685f-ad0a-4a48-becd-63dd913bcc64"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 177.8 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1385,7 +1237,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b1a6f83-a391-4bc0-9649-5e36447416dd")
-		(property "Reference" "C1"
+		(property "Reference" "C4"
 			(at 181.61 49.5299 0)
 			(effects
 				(font
@@ -1439,7 +1291,7 @@
 		(instances
 			(project "HalfBridge_SiC"
 				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/e430685f-ad0a-4a48-becd-63dd913bcc64"
-					(reference "C1")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -1595,7 +1447,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a020961-88de-40e7-a4b3-901205f932bf")
-		(property "Reference" "C2"
+		(property "Reference" "C5"
 			(at 194.31 49.5299 0)
 			(effects
 				(font
@@ -1649,7 +1501,7 @@
 		(instances
 			(project "HalfBridge_SiC"
 				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/e430685f-ad0a-4a48-becd-63dd913bcc64"
-					(reference "C2")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -1748,76 +1600,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 132.08 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8fe3cb76-aa16-4bb6-b255-5e2895346431")
-		(property "Reference" "C7"
-			(at 135.89 54.6099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 135.89 57.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D17.0mm_P7.50mm"
-			(at 133.0452 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 132.08 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 132.08 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "172bcec1-25a6-4c4a-bf8f-bc39ded09f1c")
-		)
-		(pin "2"
-			(uuid "c885364e-c00b-4bd8-bd1e-ba26c620c692")
-		)
-		(instances
-			(project "HalfBridge_SiC"
-				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/e430685f-ad0a-4a48-becd-63dd913bcc64"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 146.05 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1826,7 +1608,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94e1380f-f4e9-4ba3-86ec-3bede3db13f3")
-		(property "Reference" "C5"
+		(property "Reference" "C2"
 			(at 149.86 54.6099 0)
 			(effects
 				(font
@@ -1880,7 +1662,7 @@
 		(instances
 			(project "HalfBridge_SiC"
 				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/e430685f-ad0a-4a48-becd-63dd913bcc64"
-					(reference "C5")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -1966,7 +1748,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a381bff4-8eb1-4ac9-9c01-bc544e7d9e3d")
-		(property "Reference" "C4"
+		(property "Reference" "C1"
 			(at 149.86 44.4499 0)
 			(effects
 				(font
@@ -2020,7 +1802,7 @@
 		(instances
 			(project "HalfBridge_SiC"
 				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/e430685f-ad0a-4a48-becd-63dd913bcc64"
-					(reference "C4")
+					(reference "C1")
 					(unit 1)
 				)
 			)
