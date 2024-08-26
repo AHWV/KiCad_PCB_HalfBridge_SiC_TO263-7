@@ -116,7 +116,7 @@
 			(uuid "3c0859b0-1d99-486e-9e19-aa569676d7b3")
 		)
 		(pin "vcc" input
-			(at 76.2 116.84 180)
+			(at 76.2 121.92 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -134,6 +134,26 @@
 				(justify left)
 			)
 			(uuid "91b8f1b0-9551-4f11-a8d9-3b9d1ead5053")
+		)
+		(pin "ina" input
+			(at 76.2 116.84 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6b4f0bab-9581-4b9d-933f-0667f7fee2ba")
+		)
+		(pin "inb" input
+			(at 76.2 119.38 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ca56556d-9f1c-41fc-974d-98bc2230c364")
 		)
 		(instances
 			(project "HalfBridge_SiC"

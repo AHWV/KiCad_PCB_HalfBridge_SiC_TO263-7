@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "My_Driver_FET")(type "KiCad")(uri "${KIPRJMOD}/My_Driver_FET.kicad_sym")(options "")(descr ""))
+)
