@@ -429,7 +429,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -617,6 +617,10 @@
     [
       "8af60660-0838-42a2-a499-fc014bb54766",
       "HalfBridge_GateDriver"
+    ],
+    [
+      "14ed24e3-651e-4d31-b7a3-faed76e88ba5",
+      "HalfBridge_Optical"
     ]
   ],
   "text_variables": {}
