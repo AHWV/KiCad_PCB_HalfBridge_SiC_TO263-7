@@ -4,16 +4,628 @@
 	(generator_version "8.0")
 	(uuid "3c187ffa-7f66-4861-b077-b6965c821fc2")
 	(paper "A4")
-	(lib_symbols)
+	(lib_symbols
+		(symbol "Connector:Screw_Terminal_01x02"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Screw_Terminal_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:LED"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 27.94 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07cb683a-c35f-47d3-9ffb-e3bb3cad009b")
+	)
+	(junction
+		(at 69.85 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e0e509d-298a-4b67-94f1-dab18f6d7921")
+	)
+	(junction
+		(at 68.58 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ffd7740-b826-4dc3-8709-a9c791664779")
+	)
 	(wire
 		(pts
-			(xy 78.74 110.49) (xy 137.16 110.49)
+			(xy 68.58 110.49) (xy 137.16 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "007b8824-b410-41b4-a8d7-da36c6e45e42")
+	)
+	(wire
+		(pts
+			(xy 25.4 95.25) (xy 27.94 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04b0ba1e-5d5b-4f7c-828a-9039215cef27")
+	)
+	(wire
+		(pts
+			(xy 27.94 109.22) (xy 27.94 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0be54763-295f-4f31-be09-ddaba28a5d1a")
 	)
 	(wire
 		(pts
@@ -27,13 +639,23 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 82.55) (xy 127 82.55)
+			(xy 106.68 97.79) (xy 127 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "103fa689-83eb-4586-8c03-4f25b085ab0e")
+	)
+	(wire
+		(pts
+			(xy 27.94 95.25) (xy 68.58 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cfa6c79-680a-48ef-b3f8-adb11936936c")
 	)
 	(wire
 		(pts
@@ -47,7 +669,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 80.01) (xy 128.27 105.41)
+			(xy 128.27 95.25) (xy 128.27 105.41)
 		)
 		(stroke
 			(width 0)
@@ -57,7 +679,17 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 80.01) (xy 128.27 80.01)
+			(xy 69.85 113.03) (xy 137.16 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ac584e8-81d8-4f17-85d9-5da09c743969")
+	)
+	(wire
+		(pts
+			(xy 106.68 95.25) (xy 128.27 95.25)
 		)
 		(stroke
 			(width 0)
@@ -77,7 +709,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 80.01) (xy 78.74 80.01)
+			(xy 87.63 95.25) (xy 68.58 95.25)
 		)
 		(stroke
 			(width 0)
@@ -87,7 +719,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 82.55) (xy 127 107.95)
+			(xy 127 97.79) (xy 127 107.95)
 		)
 		(stroke
 			(width 0)
@@ -97,23 +729,13 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 82.55) (xy 80.01 113.03)
+			(xy 69.85 97.79) (xy 69.85 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7e4a5f90-6158-40e2-b64c-a7da7c6a7f4a")
-	)
-	(wire
-		(pts
-			(xy 80.01 113.03) (xy 137.16 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "806cbc4f-80f4-4c2d-a3d2-8bfb1dc5953d")
 	)
 	(wire
 		(pts
@@ -137,13 +759,23 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 82.55) (xy 80.01 82.55)
+			(xy 87.63 97.79) (xy 69.85 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b22feec3-7884-4adf-8999-db91e4d73678")
+	)
+	(wire
+		(pts
+			(xy 25.4 97.79) (xy 69.85 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5117dc4-f81b-4f53-b4ec-1429055a9f2f")
 	)
 	(wire
 		(pts
@@ -157,7 +789,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 80.01) (xy 78.74 110.49)
+			(xy 68.58 95.25) (xy 68.58 110.49)
 		)
 		(stroke
 			(width 0)
@@ -165,8 +797,294 @@
 		)
 		(uuid "e6f6fc40-c166-49e0-b48a-91fa05ab0419")
 	)
+	(wire
+		(pts
+			(xy 27.94 95.25) (xy 27.94 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2b327b4-c8fa-47b1-941b-48bd77fbf2b5")
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 20.32 95.25 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5df0a115-6542-4199-9029-bdb8de95c3cc")
+		(property "Reference" "J4"
+			(at 17.78 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 17.78 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal"
+			(at 20.32 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 20.32 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 20.32 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "56bb5b83-a6f8-4a05-a2f2-40e7b70687c5")
+		)
+		(pin "1"
+			(uuid "8883dce9-f4b1-419f-b05e-13f922dfd0d4")
+		)
+		(instances
+			(project ""
+				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 27.94 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b48aaa6-fefb-4512-86f7-f01483f48a24")
+		(property "Reference" "R17"
+			(at 30.48 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 30.48 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 26.162 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 27.94 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8d2cb5a6-28f4-4490-a991-af0f34b0f3c2")
+		)
+		(pin "1"
+			(uuid "bb243f8f-1349-4f7a-af8f-47850d04ca96")
+		)
+		(instances
+			(project ""
+				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 27.94 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ba1ef85-40f8-409a-9094-3a7a32c72f61")
+		(property "Reference" "D3"
+			(at 31.75 105.7274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 31.75 108.2674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 27.94 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 27.94 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7d57a101-97db-436b-9d33-260b36cccd7a")
+		)
+		(pin "1"
+			(uuid "8aaa2d20-aa16-4f96-b56e-7f0dece02130")
+		)
+		(instances
+			(project ""
+				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 27.94 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dee738de-1952-4588-84a7-2575c32a5d8d")
+		(property "Reference" "#PWR01"
+			(at 27.94 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 27.94 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 27.94 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9098145-abbd-4942-9622-f4b2e9ed39c3")
+		)
+		(instances
+			(project ""
+				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
-		(at 82.55 77.47)
+		(at 87.63 92.71)
 		(size 19.05 6.35)
 		(fields_autoplaced yes)
 		(stroke
@@ -178,7 +1096,7 @@
 		)
 		(uuid "14ed24e3-651e-4d31-b7a3-faed76e88ba5")
 		(property "Sheetname" "HalfBridge_Optical"
-			(at 82.55 76.7584 0)
+			(at 87.63 91.9984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -187,7 +1105,7 @@
 			)
 		)
 		(property "Sheetfile" "HalfBridge_Optical.kicad_sch"
-			(at 82.55 84.4046 0)
+			(at 87.63 99.6446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -197,7 +1115,7 @@
 			)
 		)
 		(pin "ina" output
-			(at 101.6 80.01 0)
+			(at 106.68 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -207,7 +1125,7 @@
 			(uuid "ddebc566-fecc-4476-b7b8-63a4e1612ddb")
 		)
 		(pin "inb" output
-			(at 101.6 82.55 0)
+			(at 106.68 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -217,7 +1135,7 @@
 			(uuid "dc3e7132-b959-4628-9448-52c216f4572c")
 		)
 		(pin "vcc" input
-			(at 82.55 80.01 180)
+			(at 87.63 95.25 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -227,7 +1145,7 @@
 			(uuid "b6dc3900-1827-4583-8ee7-08928addda7e")
 		)
 		(pin "gnd" input
-			(at 82.55 82.55 180)
+			(at 87.63 97.79 180)
 			(effects
 				(font
 					(size 1.27 1.27)

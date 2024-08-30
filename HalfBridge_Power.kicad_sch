@@ -1223,12 +1223,6 @@
 		(uuid "0bfc8fee-72a3-4d18-b382-64ec16af73ae")
 	)
 	(junction
-		(at 158.75 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "190d9e77-ef2f-4e53-8bfa-0c7142f68489")
-	)
-	(junction
 		(at 176.53 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1319,12 +1313,6 @@
 		(uuid "b45a49ac-285f-4f65-bfa0-f14b9863b069")
 	)
 	(junction
-		(at 158.75 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b6ef3c33-7225-4ff6-a206-b42eb17c0e07")
-	)
-	(junction
 		(at 176.53 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1343,10 +1331,22 @@
 		(uuid "d50e0569-3bd0-4d78-bdf3-f85d160ebb17")
 	)
 	(junction
+		(at 166.37 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1e10adf-177f-4fbd-8019-8b2ed4634e86")
+	)
+	(junction
 		(at 176.53 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f1f77d75-6d90-4215-97d7-78522a3b2555")
+	)
+	(junction
+		(at 166.37 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7292b6d-3301-4f4f-a556-736b9bc82a16")
 	)
 	(wire
 		(pts
@@ -1370,7 +1370,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 63.5) (xy 177.8 63.5)
+			(xy 146.05 63.5) (xy 166.37 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1410,16 +1410,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 54.61) (xy 158.75 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c0b97d4-233f-4485-b796-d0b7033d205a")
-	)
-	(wire
-		(pts
 			(xy 177.8 38.1) (xy 177.8 46.99)
 		)
 		(stroke
@@ -1447,6 +1437,16 @@
 			(type default)
 		)
 		(uuid "325ee9a2-a5c3-4bdb-a3b4-bad804a7d90c")
+	)
+	(wire
+		(pts
+			(xy 166.37 38.1) (xy 177.8 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34585a5b-1b9d-4f99-8770-1a14132d7c3f")
 	)
 	(wire
 		(pts
@@ -1530,6 +1530,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 54.61) (xy 166.37 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e6d514d-dc36-46c8-a6bd-445f72ba2c46")
+	)
+	(wire
+		(pts
 			(xy 176.53 87.63) (xy 176.53 90.17)
 		)
 		(stroke
@@ -1547,6 +1557,16 @@
 			(type default)
 		)
 		(uuid "6d58e9ee-1021-47f2-b1a1-149a189e8faf")
+	)
+	(wire
+		(pts
+			(xy 166.37 63.5) (xy 177.8 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e1c12e4-587c-4325-a1f3-e6a78da8d8f7")
 	)
 	(wire
 		(pts
@@ -1577,26 +1597,6 @@
 			(type default)
 		)
 		(uuid "74f6c5ac-c502-4fea-bb4f-582afa1c87b6")
-	)
-	(wire
-		(pts
-			(xy 146.05 38.1) (xy 158.75 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79b5f7d9-0a8d-48a6-8c38-9f1deea7f99c")
-	)
-	(wire
-		(pts
-			(xy 146.05 63.5) (xy 158.75 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79d2cdec-3a36-46cb-aafa-df0b53996cf1")
 	)
 	(wire
 		(pts
@@ -1700,13 +1700,13 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 38.1) (xy 158.75 46.99)
+			(xy 166.37 38.1) (xy 166.37 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d63cffe7-3e05-4390-9793-2a186bd8fbc6")
+		(uuid "d9bce776-2e88-4a20-b8a6-da4129de1f17")
 	)
 	(wire
 		(pts
@@ -1750,7 +1750,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 38.1) (xy 177.8 38.1)
+			(xy 146.05 38.1) (xy 166.37 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2388,156 +2388,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 146.05 55.88 0)
+		(at 166.37 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "94e1380f-f4e9-4ba3-86ec-3bede3db13f3")
-		(property "Reference" "C2"
-			(at 149.86 54.6099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 149.86 57.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm"
-			(at 147.0152 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 146.05 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 146.05 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d4ad2e1e-bdf5-44b6-9696-3a8d7ccf9464")
-		)
-		(pin "2"
-			(uuid "551c8fe7-6456-4777-bbd9-42d7cb39419d")
-		)
-		(instances
-			(project "HalfBridge_SiC"
-				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/e430685f-ad0a-4a48-becd-63dd913bcc64"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 158.75 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9bd2a26b-9bf4-4901-b9de-fec65d67da2c")
-		(property "Reference" "C3"
-			(at 162.56 49.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 162.56 52.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W15.0mm_P27.50mm_MKS4"
-			(at 159.7152 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 158.75 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 158.75 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aba996df-47e2-493f-b4ea-57c15686f05e")
-		)
-		(pin "2"
-			(uuid "53431d80-04dd-45bc-aa11-f766aed9a0fc")
-		)
-		(instances
-			(project ""
-				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/e430685f-ad0a-4a48-becd-63dd913bcc64"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 146.05 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a381bff4-8eb1-4ac9-9c01-bc544e7d9e3d")
+		(uuid "9119b7fe-a433-47fc-b72a-f377ff3e7ec7")
 		(property "Reference" "C1"
-			(at 149.86 44.4499 0)
+			(at 170.18 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2546,7 +2406,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 149.86 46.9899 0)
+			(at 170.18 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2554,8 +2414,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm"
-			(at 147.0152 49.53 0)
+		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder"
+			(at 167.3352 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2564,7 +2424,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 45.72 0)
+			(at 166.37 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2573,7 +2433,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 146.05 45.72 0)
+			(at 166.37 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2581,11 +2441,11 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "f7b3f678-a166-441d-99b5-5881358a3f48")
-		)
 		(pin "2"
-			(uuid "38d8dc08-aa71-4507-8a93-b80638e13a33")
+			(uuid "4e595b94-8748-46d0-bfc3-093eabec84e5")
+		)
+		(pin "1"
+			(uuid "4c1e7a60-4e7b-4736-9575-4885d7804644")
 		)
 		(instances
 			(project "HalfBridge_SiC"

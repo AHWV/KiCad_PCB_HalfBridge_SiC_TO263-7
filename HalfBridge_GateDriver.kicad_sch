@@ -5,225 +5,6 @@
 	(uuid "af5c723f-98eb-4991-bd63-1fa493e549c4")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Converter_DCDC:TBA2-0522"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -6.35 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TBA2-0522"
-				(at 2.54 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Converter_DCDC:Converter_DCDC_TRACO_TBA2-xxxx_Dual_THT"
-				(at 0 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.tracopower.com/products/tba2.pdf"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "2W DC/DC converter unregulated, 4.5-5.5V input, ±12V fixed output voltage, 80mA each output, 1.5kVDC isolation, SIP-7"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Traco isolated isolation dc-dc DC/DC converter not-regulated non-regulated dual 2W"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Converter*DCDC*TRACO*TBA2*Dual*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TBA2-0522_0_1"
-				(rectangle
-					(start -7.62 5.08)
-					(end 7.62 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 5.08) (xy 0 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TBA2-0522_1_1"
-				(pin power_in line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "+Vin"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "-Vin"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "-Vout"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "Com"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "+Vout"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -774,6 +555,270 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "My_Converter_DCDC:RKZ-052005D"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RKD-052005D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "My_Converter_DCDC:Converter_DCDC_RECOM_RKZ-xx2005_Dual_THT_SIP7"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://recom-power.com/en/products/dc-dc-converters/dc-dc-unregulated/rec-p-RKZ-052005D.html?1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Isolated DC/DC Converters - Through Hole SIP7 2W 5Vin +20/-5Vout 50/-200mA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RKZ-052005D_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 0 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RKZ-052005D_1_1"
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 2.54) hide
+					(name "VIN+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "VIN+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 2.54) hide
+					(name "VIN-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "VIN-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "-VDC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 2.54) hide
+					(name "+VDC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "+VDC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4645,6 +4690,93 @@
 		)
 	)
 	(symbol
+		(lib_name "My_Converter_DCDC:RKZ-052005D")
+		(lib_id "My_Converter_DCDC:RKZ-052005D")
+		(at 100.33 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87460b8e-f171-4b03-b33f-967b03f68316")
+		(property "Reference" "U2"
+			(at 100.33 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RKD-052005D"
+			(at 100.33 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My_Converter_DCDC:Converter_DCDC_RECOM_RKZ-xx2005_Dual_THT_SIP7"
+			(at 100.33 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://recom-power.com/en/products/dc-dc-converters/dc-dc-unregulated/rec-p-RKZ-052005D.html?1"
+			(at 100.33 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "296309e9-7dcb-42a8-868b-cb7800fd6c5c")
+		)
+		(pin "7"
+			(uuid "6b5bf7c0-152e-4d3a-9c18-538d15524ec8")
+		)
+		(pin "7"
+			(uuid "6e3e6462-473a-4dae-9090-cbb0ca2fda1f")
+		)
+		(pin "2"
+			(uuid "e3dbf85e-c191-4122-8ce8-3934a088885f")
+		)
+		(pin "6"
+			(uuid "171fc422-0091-412b-8481-c94443b5eeef")
+		)
+		(pin "1"
+			(uuid "b67d34b1-a652-4081-8c5c-046e3c64b0d4")
+		)
+		(pin "1"
+			(uuid "ea812ec5-3207-4d41-be71-eb155bbcf4f1")
+		)
+		(pin "5"
+			(uuid "e49381c5-be48-4528-8470-68c24b00a460")
+		)
+		(instances
+			(project "HalfBridge_SiC"
+				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/8af60660-0838-42a2-a499-fc014bb54766"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 144.78 24.13 0)
 		(unit 1)
@@ -5199,83 +5331,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Converter_DCDC:TBA2-0522")
-		(at 99.06 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c5bcc3ef-2f14-4cc7-b718-b3a420d95889")
-		(property "Reference" "U1"
-			(at 99.06 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TBA2-0522"
-			(at 99.06 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Converter_DCDC:Converter_DCDC_TRACO_TBA2-xxxx_Dual_THT"
-			(at 99.06 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tracopower.com/products/tba2.pdf"
-			(at 99.06 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2W DC/DC converter unregulated, 4.5-5.5V input, ±12V fixed output voltage, 80mA each output, 1.5kVDC isolation, SIP-7"
-			(at 99.06 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "98511168-1bc0-447a-8e2d-2bd9f7508b6f")
-		)
-		(pin "2"
-			(uuid "7bec0d88-c89a-4065-a85e-bf7093cf8346")
-		)
-		(pin "1"
-			(uuid "feb17112-0ab7-401e-a81f-bb93ceb92abd")
-		)
-		(pin "5"
-			(uuid "cd86383c-08e5-40d0-9ba0-aaab78fd190c")
-		)
-		(pin "6"
-			(uuid "20f2a86a-e257-4a14-9922-61cb74ee7fc7")
-		)
-		(instances
-			(project ""
-				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/8af60660-0838-42a2-a499-fc014bb54766"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "My_Switch:CAS-D20X1")
 		(at 58.42 154.94 0)
 		(unit 2)
@@ -5356,6 +5411,93 @@
 		)
 	)
 	(symbol
+		(lib_name "My_Converter_DCDC:RKZ-052005D")
+		(lib_id "My_Converter_DCDC:RKZ-052005D")
+		(at 99.06 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf068c93-4f0d-4650-a469-b223277146f3")
+		(property "Reference" "U1"
+			(at 99.06 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RKD-052005D"
+			(at 99.06 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My_Converter_DCDC:Converter_DCDC_RECOM_RKZ-xx2005_Dual_THT_SIP7"
+			(at 99.06 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://recom-power.com/en/products/dc-dc-converters/dc-dc-unregulated/rec-p-RKZ-052005D.html?1"
+			(at 99.06 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aa8ab8bc-87ea-4cc1-9367-509714f0a3f8")
+		)
+		(pin "7"
+			(uuid "34354818-b4c2-463d-8096-008564b26e03")
+		)
+		(pin "7"
+			(uuid "23e74371-a070-476a-b6e6-4f5843ffe4aa")
+		)
+		(pin "2"
+			(uuid "5b1db8eb-e0ce-42e4-b338-ca26691c9564")
+		)
+		(pin "6"
+			(uuid "88efe263-577b-4f70-8afd-4b4a72330f7d")
+		)
+		(pin "1"
+			(uuid "baf96f80-c73c-4e78-9f2a-a3ddf69af360")
+		)
+		(pin "1"
+			(uuid "de17cc4d-89f6-4802-b665-e58366c4b5ac")
+		)
+		(pin "5"
+			(uuid "65fd3282-49ca-485c-8ee2-e4dfdc00f8cb")
+		)
+		(instances
+			(project ""
+				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/8af60660-0838-42a2-a499-fc014bb54766"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "My_Switch:CAS-D20X1")
 		(at 58.42 139.7 0)
 		(unit 1)
@@ -5409,22 +5551,22 @@
 			)
 		)
 		(pin "5"
-			(uuid "6f8ce994-e820-490f-b50a-9f4cab8e94ab")
+			(uuid "6f8ce994-e820-490f-b50a-9f4cab8e94ac")
 		)
 		(pin "2"
-			(uuid "6de539dc-37d0-4fe4-90d2-d6eb56cc3f63")
+			(uuid "6de539dc-37d0-4fe4-90d2-d6eb56cc3f64")
 		)
 		(pin "6"
-			(uuid "527b529c-c6cf-4628-849b-a5f47610701e")
+			(uuid "527b529c-c6cf-4628-849b-a5f47610701f")
 		)
 		(pin "1"
-			(uuid "02bf7d23-7476-47c8-892c-8d984f2b82cb")
+			(uuid "02bf7d23-7476-47c8-892c-8d984f2b82cc")
 		)
 		(pin "4"
-			(uuid "13925608-9e66-4d7e-9875-d9beabb43981")
+			(uuid "13925608-9e66-4d7e-9875-d9beabb43982")
 		)
 		(pin "3"
-			(uuid "a78ec341-5850-4099-8f7d-471f2a803582")
+			(uuid "a78ec341-5850-4099-8f7d-471f2a803583")
 		)
 		(instances
 			(project ""
@@ -5706,83 +5848,6 @@
 			(project ""
 				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/8af60660-0838-42a2-a499-fc014bb54766"
 					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Converter_DCDC:TBA2-0522")
-		(at 100.33 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f9db39d3-00fc-4c0d-9c21-844b779f7d3a")
-		(property "Reference" "U3"
-			(at 100.33 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TBA2-0522"
-			(at 100.33 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Converter_DCDC:Converter_DCDC_TRACO_TBA2-xxxx_Dual_THT"
-			(at 100.33 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tracopower.com/products/tba2.pdf"
-			(at 100.33 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2W DC/DC converter unregulated, 4.5-5.5V input, ±12V fixed output voltage, 80mA each output, 1.5kVDC isolation, SIP-7"
-			(at 100.33 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "303fb064-0ccd-4a51-a4cf-98ac38c8cc11")
-		)
-		(pin "2"
-			(uuid "db6a1789-6b7d-499b-aae6-1b332a3a1b21")
-		)
-		(pin "1"
-			(uuid "1a6bd03c-6a27-44a8-85d0-1cd4b210ba97")
-		)
-		(pin "5"
-			(uuid "89289aa0-a18a-4171-b170-4f2ed2a9bbdd")
-		)
-		(pin "6"
-			(uuid "452873a9-0e50-4a93-9b08-f541d8b23608")
-		)
-		(instances
-			(project "HalfBridge_SiC"
-				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/8af60660-0838-42a2-a499-fc014bb54766"
-					(reference "U3")
 					(unit 1)
 				)
 			)
