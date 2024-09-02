@@ -4690,7 +4690,6 @@
 		)
 	)
 	(symbol
-		(lib_name "My_Converter_DCDC:RKZ-052005D")
 		(lib_id "My_Converter_DCDC:RKZ-052005D")
 		(at 100.33 133.35 0)
 		(unit 1)
@@ -5411,7 +5410,6 @@
 		)
 	)
 	(symbol
-		(lib_name "My_Converter_DCDC:RKZ-052005D")
 		(lib_id "My_Converter_DCDC:RKZ-052005D")
 		(at 99.06 33.02 0)
 		(unit 1)
