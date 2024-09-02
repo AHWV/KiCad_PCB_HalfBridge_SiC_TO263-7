@@ -482,6 +482,226 @@
 				)
 			)
 		)
+		(symbol "My_Switch:CAS-D20X1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CAS-D20X1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "My_Button_Switch_SMD:Nidec_Copal_CAS-D20A1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CAS-D20X1_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CAS-D20X1_0_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.254) (xy 1.5748 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CAS-D20X1_1_1"
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "CAS-D20X1_2_1"
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -586,26 +806,56 @@
 		(uuid "07cb683a-c35f-47d3-9ffb-e3bb3cad009b")
 	)
 	(junction
-		(at 69.85 97.79)
+		(at 54.61 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0e0e509d-298a-4b67-94f1-dab18f6d7921")
+		(uuid "5c508dc2-5246-4657-9b00-048fbe438010")
 	)
 	(junction
-		(at 68.58 95.25)
+		(at 53.34 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9ffd7740-b826-4dc3-8709-a9c791664779")
+		(uuid "8672e87d-cdad-4982-bc60-0c995798dec6")
 	)
 	(wire
 		(pts
-			(xy 68.58 110.49) (xy 137.16 110.49)
+			(xy 53.34 100.33) (xy 102.87 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "007b8824-b410-41b4-a8d7-da36c6e45e42")
+	)
+	(wire
+		(pts
+			(xy 93.98 85.09) (xy 93.98 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "022c8731-feeb-4f51-a8a9-d9ff5284a622")
+	)
+	(wire
+		(pts
+			(xy 77.47 95.25) (xy 81.28 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "025ab0d0-c7e5-413c-a72a-030f3e03519f")
+	)
+	(wire
+		(pts
+			(xy 78.74 80.01) (xy 78.74 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0449f281-1001-48d5-96df-ae74e31a249e")
 	)
 	(wire
 		(pts
@@ -619,6 +869,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 97.79) (xy 58.42 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04e548db-d7fa-4850-b679-0a6fc28d0c76")
+	)
+	(wire
+		(pts
 			(xy 44.45 109.22) (xy 44.45 111.76)
 		)
 		(stroke
@@ -629,7 +889,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 113.03) (xy 189.23 113.03)
+			(xy 142.24 102.87) (xy 154.94 102.87)
 		)
 		(stroke
 			(width 0)
@@ -639,17 +899,37 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 97.79) (xy 127 97.79)
+			(xy 82.55 82.55) (xy 82.55 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "103fa689-83eb-4586-8c03-4f25b085ab0e")
+		(uuid "0d6fc4ac-c80f-4867-a4c0-b30fe4e492fa")
 	)
 	(wire
 		(pts
-			(xy 44.45 95.25) (xy 68.58 95.25)
+			(xy 54.61 80.01) (xy 54.61 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "248e99d8-9ed2-4951-b2fe-861fd55eac3f")
+	)
+	(wire
+		(pts
+			(xy 53.34 95.25) (xy 58.42 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2802a10f-bb6d-4773-b717-7f664581910f")
+	)
+	(wire
+		(pts
+			(xy 44.45 95.25) (xy 53.34 95.25)
 		)
 		(stroke
 			(width 0)
@@ -659,7 +939,47 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 107.95) (xy 189.23 107.95)
+			(xy 95.25 95.25) (xy 102.87 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "316ce624-ad02-4345-a8a3-4e8434c05731")
+	)
+	(wire
+		(pts
+			(xy 77.47 97.79) (xy 82.55 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33085e7f-f07f-46dd-8498-bf13c454fc57")
+	)
+	(wire
+		(pts
+			(xy 58.42 77.47) (xy 53.34 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e54d7a5-ff55-4936-a6f5-815443bf0f93")
+	)
+	(wire
+		(pts
+			(xy 77.47 77.47) (xy 78.74 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42fbf635-d804-422b-b96e-a67c803adef3")
+	)
+	(wire
+		(pts
+			(xy 142.24 97.79) (xy 154.94 97.79)
 		)
 		(stroke
 			(width 0)
@@ -669,17 +989,17 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 95.25) (xy 128.27 105.41)
+			(xy 93.98 68.58) (xy 95.25 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "46c5afc1-785b-445b-9070-7364f51b39f8")
+		(uuid "48262982-374a-4f2f-966b-70f17d4c9bb9")
 	)
 	(wire
 		(pts
-			(xy 69.85 113.03) (xy 137.16 113.03)
+			(xy 54.61 102.87) (xy 102.87 102.87)
 		)
 		(stroke
 			(width 0)
@@ -689,47 +1009,47 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 95.25) (xy 128.27 95.25)
+			(xy 81.28 66.04) (xy 81.28 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4e19a09b-7824-4b00-afdc-43a7b9fa36ec")
+		(uuid "550742d9-0ff5-4b1e-b474-178c098ce239")
 	)
 	(wire
 		(pts
-			(xy 128.27 105.41) (xy 137.16 105.41)
+			(xy 93.98 97.79) (xy 102.87 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5a80f0fa-cc9e-4c84-afee-e5a56c9e240c")
+		(uuid "61c57c9c-7d34-436b-a746-2ff3d5dc1924")
 	)
 	(wire
 		(pts
-			(xy 87.63 95.25) (xy 68.58 95.25)
+			(xy 78.74 77.47) (xy 78.74 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6a9ee0ea-39fd-485a-a023-f299bdbb3a07")
+		(uuid "74508742-432e-450a-b897-753e194f1b3d")
 	)
 	(wire
 		(pts
-			(xy 127 97.79) (xy 127 107.95)
+			(xy 53.34 77.47) (xy 53.34 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7cbaee1b-257f-4b21-a8d5-434b4ca09bb3")
+		(uuid "7ca3e87b-fdfe-42f4-92c1-35dca1b857be")
 	)
 	(wire
 		(pts
-			(xy 69.85 97.79) (xy 69.85 113.03)
+			(xy 54.61 97.79) (xy 54.61 102.87)
 		)
 		(stroke
 			(width 0)
@@ -739,17 +1059,37 @@
 	)
 	(wire
 		(pts
-			(xy 127 107.95) (xy 137.16 107.95)
+			(xy 83.82 82.55) (xy 82.55 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9f42f44e-97fb-4cbd-bc08-5247ea082bf8")
+		(uuid "9714bfc6-71eb-4716-881c-5860205c8b10")
 	)
 	(wire
 		(pts
-			(xy 176.53 110.49) (xy 189.23 110.49)
+			(xy 95.25 68.58) (xy 95.25 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7c9fc10-2529-4f89-b9b7-963ba14c6161")
+	)
+	(wire
+		(pts
+			(xy 78.74 71.12) (xy 83.82 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac52cab9-c4e3-4ed8-bee5-cb9618d15144")
+	)
+	(wire
+		(pts
+			(xy 142.24 100.33) (xy 154.94 100.33)
 		)
 		(stroke
 			(width 0)
@@ -759,17 +1099,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 97.79) (xy 69.85 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b22feec3-7884-4adf-8999-db91e4d73678")
-	)
-	(wire
-		(pts
-			(xy 41.91 97.79) (xy 69.85 97.79)
+			(xy 41.91 97.79) (xy 54.61 97.79)
 		)
 		(stroke
 			(width 0)
@@ -779,7 +1109,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 105.41) (xy 189.23 105.41)
+			(xy 142.24 95.25) (xy 154.94 95.25)
 		)
 		(stroke
 			(width 0)
@@ -789,13 +1119,53 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 95.25) (xy 68.58 110.49)
+			(xy 77.47 80.01) (xy 78.74 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7761a63-2bb8-4cce-9003-259be4f3ebf8")
+	)
+	(wire
+		(pts
+			(xy 83.82 66.04) (xy 81.28 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9349428-4c61-43a3-af07-5307591f228e")
+	)
+	(wire
+		(pts
+			(xy 58.42 80.01) (xy 54.61 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfe62291-6f23-4af4-8427-de5c076fed4d")
+	)
+	(wire
+		(pts
+			(xy 53.34 95.25) (xy 53.34 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e6f6fc40-c166-49e0-b48a-91fa05ab0419")
+	)
+	(wire
+		(pts
+			(xy 78.74 87.63) (xy 83.82 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e88e094d-d9e9-4355-b444-9b69b6edba3b")
 	)
 	(wire
 		(pts
@@ -806,6 +1176,85 @@
 			(type default)
 		)
 		(uuid "f2b327b4-c8fa-47b1-941b-48bd77fbf2b5")
+	)
+	(symbol
+		(lib_id "My_Switch:CAS-D20X1")
+		(at 88.9 68.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "32a35296-05a0-4472-ae3b-5f5d527ec8e3")
+		(property "Reference" "SW2"
+			(at 88.9 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CAS-D20X1"
+			(at 88.9 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My_Button_Switch_SMD:Nidec_Copal_CAS-D20A1"
+			(at 88.9 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
+			(at 88.9 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "6f8ce994-e820-490f-b50a-9f4cab8e94ac")
+		)
+		(pin "2"
+			(uuid "aef751f8-4692-4442-a32b-6aaa61b3700a")
+		)
+		(pin "6"
+			(uuid "527b529c-c6cf-4628-849b-a5f47610701f")
+		)
+		(pin "1"
+			(uuid "a3c1b160-74db-46af-b729-f74d4095715e")
+		)
+		(pin "4"
+			(uuid "13925608-9e66-4d7e-9875-d9beabb43982")
+		)
+		(pin "3"
+			(uuid "625e2e9b-2f28-4551-9f7e-1fe03bb0211c")
+		)
+		(instances
+			(project "HalfBridge_SiC"
+				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
@@ -1018,6 +1467,85 @@
 		)
 	)
 	(symbol
+		(lib_id "My_Switch:CAS-D20X1")
+		(at 88.9 85.09 180)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d35de9ad-9552-41ff-98e3-b42e6043da56")
+		(property "Reference" "SW2"
+			(at 88.9 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CAS-D20X1"
+			(at 88.9 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My_Button_Switch_SMD:Nidec_Copal_CAS-D20A1"
+			(at 88.9 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
+			(at 88.9 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "6f8ce994-e820-490f-b50a-9f4cab8e94ac")
+		)
+		(pin "2"
+			(uuid "ff92a534-ca02-4498-9402-0bbd5e5d58a5")
+		)
+		(pin "6"
+			(uuid "527b529c-c6cf-4628-849b-a5f47610701f")
+		)
+		(pin "1"
+			(uuid "b41ef946-b9eb-49f1-b16e-92e7ea43e18b")
+		)
+		(pin "4"
+			(uuid "13925608-9e66-4d7e-9875-d9beabb43982")
+		)
+		(pin "3"
+			(uuid "6ea1d209-e112-47b4-ae89-e2c65d185ee1")
+		)
+		(instances
+			(project "HalfBridge_SiC"
+				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2"
+					(reference "SW2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 44.45 119.38 0)
 		(unit 1)
@@ -1084,7 +1612,7 @@
 		)
 	)
 	(sheet
-		(at 87.63 92.71)
+		(at 58.42 92.71)
 		(size 19.05 6.35)
 		(fields_autoplaced yes)
 		(stroke
@@ -1096,7 +1624,7 @@
 		)
 		(uuid "14ed24e3-651e-4d31-b7a3-faed76e88ba5")
 		(property "Sheetname" "HalfBridge_Optical"
-			(at 87.63 91.9984 0)
+			(at 58.42 91.9984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1105,7 +1633,7 @@
 			)
 		)
 		(property "Sheetfile" "HalfBridge_Optical.kicad_sch"
-			(at 87.63 99.6446 0)
+			(at 58.42 99.6446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1115,7 +1643,7 @@
 			)
 		)
 		(pin "ina" output
-			(at 106.68 95.25 0)
+			(at 77.47 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1125,7 +1653,7 @@
 			(uuid "ddebc566-fecc-4476-b7b8-63a4e1612ddb")
 		)
 		(pin "inb" output
-			(at 106.68 97.79 0)
+			(at 77.47 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1135,7 +1663,7 @@
 			(uuid "dc3e7132-b959-4628-9448-52c216f4572c")
 		)
 		(pin "vcc" input
-			(at 87.63 95.25 180)
+			(at 58.42 95.25 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1145,7 +1673,7 @@
 			(uuid "b6dc3900-1827-4583-8ee7-08928addda7e")
 		)
 		(pin "gnd" input
-			(at 87.63 97.79 180)
+			(at 58.42 97.79 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1163,7 +1691,86 @@
 		)
 	)
 	(sheet
-		(at 137.16 102.87)
+		(at 58.42 76.2)
+		(size 19.05 5.08)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6db083ab-29ba-4c62-9810-6a6595b985fc")
+		(property "Sheetname" "HalfBridge_Diff"
+			(at 58.42 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "HalfBridge_Diff.kicad_sch"
+			(at 58.42 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "vcc" input
+			(at 58.42 77.47 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e2038e01-bb9d-4547-b17c-e5e29b264eca")
+		)
+		(pin "gnd" input
+			(at 58.42 80.01 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "537473e9-4583-44a8-8631-ce2c1b2dacd6")
+		)
+		(pin "ina_d" output
+			(at 77.47 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cde6b5ce-3088-4f37-97b1-4c91c885e554")
+		)
+		(pin "inb_d" output
+			(at 77.47 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "567b610b-7e48-450c-ac99-6d6314cd0195")
+		)
+		(instances
+			(project "HalfBridge_SiC"
+				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 102.87 92.71)
 		(size 39.37 12.7)
 		(fields_autoplaced yes)
 		(stroke
@@ -1175,7 +1782,7 @@
 		)
 		(uuid "8af60660-0838-42a2-a499-fc014bb54766")
 		(property "Sheetname" "HalfBridge_GateDriver"
-			(at 137.16 102.1584 0)
+			(at 102.87 91.9984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1184,7 +1791,7 @@
 			)
 		)
 		(property "Sheetfile" "HalfBridge_GateDriver.kicad_sch"
-			(at 137.16 116.1546 0)
+			(at 102.87 105.9946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1193,7 +1800,7 @@
 			)
 		)
 		(pin "gl" output
-			(at 176.53 110.49 0)
+			(at 142.24 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1203,7 +1810,7 @@
 			(uuid "769fe7ff-99e4-493a-84a0-c4c78c0aa416")
 		)
 		(pin "kh" output
-			(at 176.53 107.95 0)
+			(at 142.24 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1213,7 +1820,7 @@
 			(uuid "77a616c5-91c7-4c1d-a990-9c55bbce66e5")
 		)
 		(pin "gh" output
-			(at 176.53 105.41 0)
+			(at 142.24 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1223,7 +1830,7 @@
 			(uuid "1380c96c-9c29-4ae0-986a-1a183ef0c974")
 		)
 		(pin "kl" output
-			(at 176.53 113.03 0)
+			(at 142.24 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1233,7 +1840,7 @@
 			(uuid "3c0859b0-1d99-486e-9e19-aa569676d7b3")
 		)
 		(pin "vcc" input
-			(at 137.16 110.49 180)
+			(at 102.87 100.33 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1243,7 +1850,7 @@
 			(uuid "b84ab8c5-735c-4b8b-8570-be3834d8d396")
 		)
 		(pin "gnd" input
-			(at 137.16 113.03 180)
+			(at 102.87 102.87 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1253,7 +1860,7 @@
 			(uuid "91b8f1b0-9551-4f11-a8d9-3b9d1ead5053")
 		)
 		(pin "ina" input
-			(at 137.16 105.41 180)
+			(at 102.87 95.25 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1263,7 +1870,7 @@
 			(uuid "6b4f0bab-9581-4b9d-933f-0667f7fee2ba")
 		)
 		(pin "inb" input
-			(at 137.16 107.95 180)
+			(at 102.87 97.79 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1281,8 +1888,8 @@
 		)
 	)
 	(sheet
-		(at 189.23 96.52)
-		(size 33.02 19.05)
+		(at 154.94 92.71)
+		(size 33.02 12.7)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1293,7 +1900,7 @@
 		)
 		(uuid "e430685f-ad0a-4a48-becd-63dd913bcc64")
 		(property "Sheetname" "HalfBridge_Power"
-			(at 189.23 95.8084 0)
+			(at 154.94 91.9984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1302,7 +1909,7 @@
 			)
 		)
 		(property "Sheetfile" "HalfBridge_Power.kicad_sch"
-			(at 189.23 116.1546 0)
+			(at 154.94 105.9946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1311,7 +1918,7 @@
 			)
 		)
 		(pin "ph" output
-			(at 222.25 99.06 0)
+			(at 187.96 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1321,27 +1928,27 @@
 			(uuid "21366523-3a12-42c9-8d27-76234f0e1500")
 		)
 		(pin "dcp" input
-			(at 189.23 97.79 180)
+			(at 187.96 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 			(uuid "4992e1fc-2a0f-4cc9-8fce-ef3ebe6e7aa1")
 		)
 		(pin "dcn" input
-			(at 189.23 100.33 180)
+			(at 187.96 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 			(uuid "09b214c1-692c-4ec4-89dd-23073db1098e")
 		)
 		(pin "gh" input
-			(at 189.23 105.41 180)
+			(at 154.94 95.25 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1351,7 +1958,7 @@
 			(uuid "6f86b3e5-601c-4422-a520-187d9cf75616")
 		)
 		(pin "kh" input
-			(at 189.23 107.95 180)
+			(at 154.94 97.79 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1361,7 +1968,7 @@
 			(uuid "ca49f85a-e44d-48e8-8995-f37ecc6bcbe9")
 		)
 		(pin "gl" input
-			(at 189.23 110.49 180)
+			(at 154.94 100.33 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1371,7 +1978,7 @@
 			(uuid "446e7098-e95e-452d-a847-64f7fa0242ca")
 		)
 		(pin "kl" input
-			(at 189.23 113.03 180)
+			(at 154.94 102.87 180)
 			(effects
 				(font
 					(size 1.27 1.27)

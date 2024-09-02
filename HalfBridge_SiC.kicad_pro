@@ -608,7 +608,7 @@
   "sheets": [
     [
       "3c187ffa-7f66-4861-b077-b6965c821fc2",
-      "Root"
+      "Raíz"
     ],
     [
       "e430685f-ad0a-4a48-becd-63dd913bcc64",
@@ -621,6 +621,10 @@
     [
       "14ed24e3-651e-4d31-b7a3-faed76e88ba5",
       "HalfBridge_Optical"
+    ],
+    [
+      "6db083ab-29ba-4c62-9810-6a6595b985fc",
+      "HalfBridge_Diff"
     ]
   ],
   "text_variables": {}
