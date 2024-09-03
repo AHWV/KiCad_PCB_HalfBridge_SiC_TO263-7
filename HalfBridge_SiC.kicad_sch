@@ -819,16 +819,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 100.33) (xy 102.87 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "007b8824-b410-41b4-a8d7-da36c6e45e42")
-	)
-	(wire
-		(pts
 			(xy 93.98 85.09) (xy 93.98 97.79)
 		)
 		(stroke
@@ -999,16 +989,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 102.87) (xy 102.87 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ac584e8-81d8-4f17-85d9-5da09c743969")
-	)
-	(wire
-		(pts
 			(xy 81.28 66.04) (xy 81.28 95.25)
 		)
 		(stroke
@@ -1049,16 +1029,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 97.79) (xy 54.61 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e4a5f90-6158-40e2-b64c-a7da7c6a7f4a")
-	)
-	(wire
-		(pts
 			(xy 83.82 82.55) (xy 82.55 82.55)
 		)
 		(stroke
@@ -1066,6 +1036,16 @@
 			(type default)
 		)
 		(uuid "9714bfc6-71eb-4716-881c-5860205c8b10")
+	)
+	(wire
+		(pts
+			(xy 54.61 105.41) (xy 54.61 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a11c3ce5-929d-4de5-97a7-6b81eaddad33")
 	)
 	(wire
 		(pts
@@ -1086,6 +1066,26 @@
 			(type default)
 		)
 		(uuid "ac52cab9-c4e3-4ed8-bee5-cb9618d15144")
+	)
+	(wire
+		(pts
+			(xy 102.87 105.41) (xy 54.61 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac736eb8-fcc0-4987-a151-364c9a583e1f")
+	)
+	(wire
+		(pts
+			(xy 102.87 102.87) (xy 53.34 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad53ac41-8794-4515-9cf5-598fd1e0fe57")
 	)
 	(wire
 		(pts
@@ -1149,13 +1149,13 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 95.25) (xy 53.34 100.33)
+			(xy 53.34 102.87) (xy 53.34 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e6f6fc40-c166-49e0-b48a-91fa05ab0419")
+		(uuid "e1fd263e-ad42-440c-837f-da37fdadabc9")
 	)
 	(wire
 		(pts
@@ -1519,19 +1519,19 @@
 			)
 		)
 		(pin "5"
-			(uuid "6f8ce994-e820-490f-b50a-9f4cab8e94ac")
+			(uuid "6f8ce994-e820-490f-b50a-9f4cab8e94ad")
 		)
 		(pin "2"
 			(uuid "ff92a534-ca02-4498-9402-0bbd5e5d58a5")
 		)
 		(pin "6"
-			(uuid "527b529c-c6cf-4628-849b-a5f47610701f")
+			(uuid "527b529c-c6cf-4628-849b-a5f476107020")
 		)
 		(pin "1"
 			(uuid "b41ef946-b9eb-49f1-b16e-92e7ea43e18b")
 		)
 		(pin "4"
-			(uuid "13925608-9e66-4d7e-9875-d9beabb43982")
+			(uuid "13925608-9e66-4d7e-9875-d9beabb43983")
 		)
 		(pin "3"
 			(uuid "6ea1d209-e112-47b4-ae89-e2c65d185ee1")
@@ -1771,7 +1771,7 @@
 	)
 	(sheet
 		(at 102.87 92.71)
-		(size 39.37 12.7)
+		(size 39.37 15.24)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1791,7 +1791,7 @@
 			)
 		)
 		(property "Sheetfile" "HalfBridge_GateDriver.kicad_sch"
-			(at 102.87 105.9946 0)
+			(at 102.87 108.5346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1840,7 +1840,7 @@
 			(uuid "3c0859b0-1d99-486e-9e19-aa569676d7b3")
 		)
 		(pin "vcc" input
-			(at 102.87 100.33 180)
+			(at 102.87 102.87 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1850,7 +1850,7 @@
 			(uuid "b84ab8c5-735c-4b8b-8570-be3834d8d396")
 		)
 		(pin "gnd" input
-			(at 102.87 102.87 180)
+			(at 102.87 105.41 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1878,6 +1878,16 @@
 				(justify left)
 			)
 			(uuid "ca56556d-9f1c-41fc-974d-98bc2230c364")
+		)
+		(pin "dis_x" input
+			(at 102.87 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ab67c6c7-5408-4915-be9e-75c07a31afb7")
 		)
 		(instances
 			(project "HalfBridge_SiC"
