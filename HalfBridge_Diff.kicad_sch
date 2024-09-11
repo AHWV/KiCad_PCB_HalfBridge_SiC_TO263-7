@@ -1636,7 +1636,7 @@
 	(symbol
 		(lib_id "74xGxx:74AUC2GU04")
 		(at 161.29 109.22 0)
-		(unit 1)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1708,7 +1708,7 @@
 			(project ""
 				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/6db083ab-29ba-4c62-9810-6a6595b985fc"
 					(reference "U6")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
@@ -2057,22 +2057,22 @@
 			)
 		)
 		(pin "6"
-			(uuid "26e32f1f-184f-4dcc-af25-fe59b2fa323b")
+			(uuid "26e32f1f-184f-4dcc-af25-fe59b2fa323c")
 		)
 		(pin "1"
-			(uuid "a883170d-ae98-41c7-8e67-9ce8a33584f1")
+			(uuid "a883170d-ae98-41c7-8e67-9ce8a33584f2")
 		)
 		(pin "5"
-			(uuid "ef0b7695-4143-44ba-bd34-df8478a8f6ae")
+			(uuid "ef0b7695-4143-44ba-bd34-df8478a8f6af")
 		)
 		(pin "2"
-			(uuid "175709f2-5600-4eee-bb2e-38e1b3374e62")
+			(uuid "175709f2-5600-4eee-bb2e-38e1b3374e63")
 		)
 		(pin "3"
-			(uuid "d038882e-4800-491f-870f-2bdce8b73acc")
+			(uuid "d038882e-4800-491f-870f-2bdce8b73acd")
 		)
 		(pin "4"
-			(uuid "2789d83d-5142-4c3d-9396-3b0085969086")
+			(uuid "2789d83d-5142-4c3d-9396-3b0085969087")
 		)
 		(instances
 			(project ""
@@ -2166,7 +2166,7 @@
 	(symbol
 		(lib_id "74xGxx:74AUC2GU04")
 		(at 161.29 142.24 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2217,28 +2217,28 @@
 			)
 		)
 		(pin "6"
-			(uuid "26e32f1f-184f-4dcc-af25-fe59b2fa323b")
+			(uuid "26e32f1f-184f-4dcc-af25-fe59b2fa323d")
 		)
 		(pin "1"
-			(uuid "a883170d-ae98-41c7-8e67-9ce8a33584f1")
+			(uuid "a883170d-ae98-41c7-8e67-9ce8a33584f3")
 		)
 		(pin "5"
-			(uuid "ef0b7695-4143-44ba-bd34-df8478a8f6ae")
+			(uuid "ef0b7695-4143-44ba-bd34-df8478a8f6b0")
 		)
 		(pin "2"
-			(uuid "175709f2-5600-4eee-bb2e-38e1b3374e62")
+			(uuid "175709f2-5600-4eee-bb2e-38e1b3374e64")
 		)
 		(pin "3"
-			(uuid "d038882e-4800-491f-870f-2bdce8b73acc")
+			(uuid "d038882e-4800-491f-870f-2bdce8b73ace")
 		)
 		(pin "4"
-			(uuid "2789d83d-5142-4c3d-9396-3b0085969086")
+			(uuid "2789d83d-5142-4c3d-9396-3b0085969088")
 		)
 		(instances
 			(project ""
 				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/6db083ab-29ba-4c62-9810-6a6595b985fc"
 					(reference "U6")
-					(unit 2)
+					(unit 1)
 				)
 			)
 		)
