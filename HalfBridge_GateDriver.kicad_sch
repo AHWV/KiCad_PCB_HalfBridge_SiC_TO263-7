@@ -3249,7 +3249,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 149.86) (xy 40.64 149.86)
+			(xy 33.02 156.21) (xy 40.64 156.21)
 		)
 		(stroke
 			(width 0)
@@ -3329,6 +3329,17 @@
 		)
 		(uuid "0b7f4fc0-dc77-4200-9b02-e9333accccba")
 	)
+	(label "gnd"
+		(at 146.05 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1360dcd3-3afc-40b8-a3eb-8d815ddea0c4")
+	)
 	(label "vcc"
 		(at 140.97 46.99 0)
 		(fields_autoplaced yes)
@@ -3350,6 +3361,17 @@
 			(justify right bottom)
 		)
 		(uuid "16f2ba35-6eba-4dbe-a2c9-f50203499a6c")
+	)
+	(label "vcc"
+		(at 55.88 148.59 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "188da359-6c3c-471e-a4dc-52ad6ab1c5a4")
 	)
 	(label "gnd"
 		(at 151.13 100.33 0)
@@ -3505,6 +3527,17 @@
 		)
 		(uuid "467f71e4-4217-4d13-8f05-10150619ccb2")
 	)
+	(label "vcci"
+		(at 146.05 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4ca91748-4e1d-4877-8090-ad1ebe64913c")
+	)
 	(label "vcc"
 		(at 120.65 80.01 0)
 		(fields_autoplaced yes)
@@ -3561,7 +3594,7 @@
 		(uuid "53e59e22-8058-4158-ad6a-24838d339a36")
 	)
 	(label "dis_x"
-		(at 68.58 152.4 0)
+		(at 68.58 158.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3605,7 +3638,7 @@
 		(uuid "5bd1e096-633f-4cb4-bfcb-7795027682ef")
 	)
 	(label "gnd"
-		(at 55.88 162.56 0)
+		(at 55.88 168.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3658,17 +3691,6 @@
 			(justify left bottom)
 		)
 		(uuid "6f807484-10e9-4068-98d1-b66f4f9d1924")
-	)
-	(label "vcc"
-		(at 55.88 118.11 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "75769f74-1df5-4fa9-977f-b41c2507bcf0")
 	)
 	(label "vcc"
 		(at 139.7 143.51 0)
@@ -3724,17 +3746,6 @@
 			(justify left bottom)
 		)
 		(uuid "84316582-3737-4328-8cb4-68e1c9a527f5")
-	)
-	(label "vcc"
-		(at 55.88 142.24 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8917fc45-04d3-48ca-86fa-6bb5fef1511b")
 	)
 	(label "ingb"
 		(at 104.14 118.11 0)
@@ -3792,6 +3803,17 @@
 		(uuid "947aafb1-0b80-4c98-a6e1-58ff81c6724c")
 	)
 	(label "gnd"
+		(at 63.5 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "95aff1ee-b482-4a0d-9528-5560b4d3f44a")
+	)
+	(label "gnd"
 		(at 45.72 71.12 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3824,6 +3846,17 @@
 		)
 		(uuid "9ebccd40-3ec5-4802-b7d1-355600a23366")
 	)
+	(label "vcc"
+		(at 55.88 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9f782fe3-4432-41fe-a9ef-0fa050d449f4")
+	)
 	(label "dis_i"
 		(at 140.97 67.31 0)
 		(fields_autoplaced yes)
@@ -3845,6 +3878,17 @@
 			(justify left top)
 		)
 		(uuid "a80c146b-1325-4297-8e01-3d2f2fba4480")
+	)
+	(label "gnd"
+		(at 63.5 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a9463249-ab6b-401a-b911-55614e587089")
 	)
 	(label "gnd"
 		(at 106.68 87.63 0)
@@ -4001,13 +4045,13 @@
 		(uuid "d6053f05-b482-41f4-85c4-984d2b773aff")
 	)
 	(label "vcc"
-		(at 55.88 87.63 0)
+		(at 55.88 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "da9cd55e-9291-4684-bec7-08f2a3d64bfc")
 	)
@@ -4099,6 +4143,17 @@
 		)
 		(uuid "f570f39f-926a-4d78-ac76-4c1d7ee92456")
 	)
+	(label "gnd"
+		(at 63.5 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f614f5b0-69c2-4776-8a38-357915d38c07")
+	)
 	(label "inga"
 		(at 68.58 97.79 0)
 		(fields_autoplaced yes)
@@ -4124,7 +4179,7 @@
 	)
 	(hierarchical_label "en"
 		(shape input)
-		(at 33.02 149.86 180)
+		(at 33.02 156.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4219,6 +4274,74 @@
 		(uuid "e31c40b2-651c-4c50-8684-04f95366eabe")
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 59.69 148.59 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "001b6888-3daf-490f-b4e3-52f9fdc79fc3")
+		(property "Reference" "C6"
+			(at 59.69 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 59.69 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 63.5 147.6248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 59.69 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "311dcc9c-783f-48d5-b369-31ae83044e3b")
+		)
+		(pin "2"
+			(uuid "c2e66991-9ee5-44d8-b10b-7a89d418d10c")
+		)
+		(instances
+			(project "HalfBridge_SiC"
+				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/8af60660-0838-42a2-a499-fc014bb54766"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 220.98 64.77 90)
 		(unit 1)
@@ -4296,7 +4419,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04149ba2-f595-4893-ba1b-6412e0d6c18f")
-		(property "Reference" "C12"
+		(property "Reference" "C16"
 			(at 213.36 24.1299 0)
 			(effects
 				(font
@@ -4350,7 +4473,7 @@
 		(instances
 			(project ""
 				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/8af60660-0838-42a2-a499-fc014bb54766"
-					(reference "C12")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -4434,7 +4557,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c2dbca1-3825-480b-9f42-ef04d84b1b24")
-		(property "Reference" "C13"
+		(property "Reference" "C17"
 			(at 213.36 34.2899 0)
 			(effects
 				(font
@@ -4488,7 +4611,75 @@
 		(instances
 			(project "HalfBridge_SiC"
 				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/8af60660-0838-42a2-a499-fc014bb54766"
-					(reference "C13")
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 59.69 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "147eb051-9a37-492e-9bbf-e913453923bd")
+		(property "Reference" "C5"
+			(at 59.69 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 59.69 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 63.5 117.1448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 59.69 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd45343f-95f3-43dc-a0a4-4c84573f265a")
+		)
+		(pin "2"
+			(uuid "9440ff1d-a745-4af4-8b0b-fc880eada32a")
+		)
+		(instances
+			(project "HalfBridge_SiC"
+				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/8af60660-0838-42a2-a499-fc014bb54766"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -4581,7 +4772,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "343ebf48-8913-4142-aec8-155503dbb837")
-		(property "Reference" "C5"
+		(property "Reference" "C8"
 			(at 120.65 120.6499 0)
 			(effects
 				(font
@@ -4635,7 +4826,7 @@
 		(instances
 			(project "HalfBridge_SiC"
 				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/8af60660-0838-42a2-a499-fc014bb54766"
-					(reference "C5")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -4925,7 +5116,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e5db043-e849-458b-8b2f-d4286d719921")
-		(property "Reference" "C11"
+		(property "Reference" "C15"
 			(at 209.55 151.1299 0)
 			(effects
 				(font
@@ -4979,7 +5170,7 @@
 		(instances
 			(project "HalfBridge_SiC"
 				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/8af60660-0838-42a2-a499-fc014bb54766"
-					(reference "C11")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -5133,7 +5324,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fe983dc-1fab-4d41-b3e3-2d22d6e217da")
-		(property "Reference" "C14"
+		(property "Reference" "C18"
 			(at 223.52 140.9699 0)
 			(effects
 				(font
@@ -5187,7 +5378,7 @@
 		(instances
 			(project "HalfBridge_SiC"
 				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/8af60660-0838-42a2-a499-fc014bb54766"
-					(reference "C14")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -5264,15 +5455,15 @@
 	(symbol
 		(lib_id "My_Switch:CAS-D20X1")
 		(at 135.89 64.77 0)
-		(unit 2)
+		(mirror x)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "54aa6c0c-46cc-48c5-a978-7837506f62d4")
 		(property "Reference" "SW2"
-			(at 135.89 55.88 0)
+			(at 135.89 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5280,7 +5471,7 @@
 			)
 		)
 		(property "Value" "CAS-D20X1"
-			(at 135.89 58.42 0)
+			(at 135.89 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5336,7 +5527,7 @@
 			(project "HalfBridge_SiC"
 				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/8af60660-0838-42a2-a499-fc014bb54766"
 					(reference "SW2")
-					(unit 2)
+					(unit 1)
 				)
 			)
 		)
@@ -5491,7 +5682,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "700be579-86ce-4e59-a498-fa7df234deca")
-		(property "Reference" "C10"
+		(property "Reference" "C14"
 			(at 209.55 140.9699 0)
 			(effects
 				(font
@@ -5545,7 +5736,7 @@
 		(instances
 			(project "HalfBridge_SiC"
 				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/8af60660-0838-42a2-a499-fc014bb54766"
-					(reference "C10")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -5561,7 +5752,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7286015c-ff5a-4b43-9ef1-cc99d4758284")
-		(property "Reference" "C17"
+		(property "Reference" "C21"
 			(at 224.79 34.2899 0)
 			(effects
 				(font
@@ -5615,7 +5806,7 @@
 		(instances
 			(project "HalfBridge_SiC"
 				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/8af60660-0838-42a2-a499-fc014bb54766"
-					(reference "C17")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -5631,7 +5822,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7323e5b7-7111-40bf-87b1-e4507d1bfccf")
-		(property "Reference" "C4"
+		(property "Reference" "C7"
 			(at 120.65 102.8699 0)
 			(effects
 				(font
@@ -5685,7 +5876,7 @@
 		(instances
 			(project "HalfBridge_SiC"
 				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/8af60660-0838-42a2-a499-fc014bb54766"
-					(reference "C4")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -5701,7 +5892,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "759d60f6-e303-4605-a865-608e92694b6f")
-		(property "Reference" "C6"
+		(property "Reference" "C9"
 			(at 124.46 82.5499 0)
 			(effects
 				(font
@@ -5755,7 +5946,7 @@
 		(instances
 			(project "HalfBridge_SiC"
 				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/8af60660-0838-42a2-a499-fc014bb54766"
-					(reference "C6")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -5872,7 +6063,6 @@
 		)
 	)
 	(symbol
-		(lib_name "My_Converter_DCDC:RKZ-052005D")
 		(lib_id "My_Converter_DCDC:RKZ-052005D")
 		(at 176.53 134.62 0)
 		(unit 1)
@@ -5968,7 +6158,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8bc4621e-556c-4f34-815c-48ad17d1afd6")
-		(property "Reference" "C16"
+		(property "Reference" "C20"
 			(at 224.79 24.1299 0)
 			(effects
 				(font
@@ -6022,7 +6212,7 @@
 		(instances
 			(project "HalfBridge_SiC"
 				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/8af60660-0838-42a2-a499-fc014bb54766"
-					(reference "C16")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -6038,7 +6228,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90176aee-b0c4-444b-bcc9-5cb7585a7baa")
-		(property "Reference" "C9"
+		(property "Reference" "C13"
 			(at 158.75 140.9699 0)
 			(effects
 				(font
@@ -6092,7 +6282,7 @@
 		(instances
 			(project "HalfBridge_SiC"
 				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/8af60660-0838-42a2-a499-fc014bb54766"
-					(reference "C9")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -6176,7 +6366,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d734a52-0d57-4fcb-b330-3bbd5225bcf5")
-		(property "Reference" "C15"
+		(property "Reference" "C19"
 			(at 223.52 151.1299 0)
 			(effects
 				(font
@@ -6230,7 +6420,77 @@
 		(instances
 			(project "HalfBridge_SiC"
 				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/8af60660-0838-42a2-a499-fc014bb54766"
-					(reference "C15")
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 146.05 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e67cfcd-fc7e-431e-a495-62eebb6e979e")
+		(property "Reference" "C12"
+			(at 149.86 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 149.86 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 147.0152 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 146.05 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4f87a6f-89d9-4f32-9344-1b4da4618066")
+		)
+		(pin "2"
+			(uuid "d5632d72-1234-485d-96bd-14b5ff128a11")
+		)
+		(instances
+			(project "HalfBridge_SiC"
+				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/8af60660-0838-42a2-a499-fc014bb54766"
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -6238,7 +6498,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74AHC1G86")
-		(at 55.88 152.4 0)
+		(at 55.88 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6247,7 +6507,7 @@
 		(fields_autoplaced yes)
 		(uuid "a8128463-e8d9-4328-a8c5-327a2280aa2d")
 		(property "Reference" "U3"
-			(at 68.58 146.0814 0)
+			(at 68.58 152.4314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6255,7 +6515,7 @@
 			)
 		)
 		(property "Value" "74AHC1G86"
-			(at 68.58 148.6214 0)
+			(at 68.58 154.9714 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6263,7 +6523,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
-			(at 55.88 152.4 0)
+			(at 55.88 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6272,7 +6532,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 55.88 152.4 0)
+			(at 55.88 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6281,7 +6541,7 @@
 			)
 		)
 		(property "Description" "Single XOR Gate, Low-Voltage CMOS"
-			(at 55.88 152.4 0)
+			(at 55.88 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6384,15 +6644,15 @@
 	(symbol
 		(lib_id "My_Switch:CAS-D20X1")
 		(at 135.89 49.53 0)
-		(unit 1)
+		(mirror x)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b3b04596-44ce-4e90-826f-01bb05cf3517")
 		(property "Reference" "SW2"
-			(at 135.89 40.64 0)
+			(at 135.89 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6400,7 +6660,7 @@
 			)
 		)
 		(property "Value" "CAS-D20X1"
-			(at 135.89 43.18 0)
+			(at 135.89 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6456,7 +6716,7 @@
 			(project "HalfBridge_SiC"
 				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/8af60660-0838-42a2-a499-fc014bb54766"
 					(reference "SW2")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
@@ -6611,7 +6871,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb85cf9b-d16a-413f-9dcb-7eb25ec89d29")
-		(property "Reference" "C8"
+		(property "Reference" "C11"
 			(at 149.86 82.5499 0)
 			(effects
 				(font
@@ -6665,7 +6925,7 @@
 		(instances
 			(project ""
 				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/8af60660-0838-42a2-a499-fc014bb54766"
-					(reference "C8")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -6734,6 +6994,74 @@
 			(project "HalfBridge_SiC"
 				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/8af60660-0838-42a2-a499-fc014bb54766"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 59.69 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c44ffb54-a242-4717-a1ec-60d6d387edcf")
+		(property "Reference" "C4"
+			(at 59.69 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 59.69 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 63.5 86.6648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 59.69 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d25c87b-2c65-4cd6-9b30-2a0aed1d7394")
+		)
+		(pin "2"
+			(uuid "2729c510-8f25-4dae-b901-0b66c7fe7d8c")
+		)
+		(instances
+			(project "HalfBridge_SiC"
+				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/8af60660-0838-42a2-a499-fc014bb54766"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -6820,7 +7148,6 @@
 		)
 	)
 	(symbol
-		(lib_name "My_Converter_DCDC:RKZ-052005D")
 		(lib_id "My_Converter_DCDC:RKZ-052005D")
 		(at 175.26 34.29 0)
 		(unit 1)
@@ -7211,7 +7538,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea66a5e2-f4fc-40a1-b1c7-f2562e1eaac7")
-		(property "Reference" "C7"
+		(property "Reference" "C10"
 			(at 139.7 82.5499 0)
 			(effects
 				(font
@@ -7265,7 +7592,7 @@
 		(instances
 			(project "HalfBridge_SiC"
 				(path "/3c187ffa-7f66-4861-b077-b6965c821fc2/8af60660-0838-42a2-a499-fc014bb54766"
-					(reference "C7")
+					(reference "C10")
 					(unit 1)
 				)
 			)

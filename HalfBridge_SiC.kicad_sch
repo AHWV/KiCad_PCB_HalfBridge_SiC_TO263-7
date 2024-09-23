@@ -586,6 +586,18 @@
 		(uuid "07cb683a-c35f-47d3-9ffb-e3bb3cad009b")
 	)
 	(junction
+		(at 91.44 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51e1a2e8-9513-439b-802b-b5845f6f5158")
+	)
+	(junction
+		(at 92.71 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54a85ba9-6a1f-4a69-97a1-7c65725acb1f")
+	)
+	(junction
 		(at 54.61 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -596,6 +608,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "81c11398-e671-4bf9-9ece-8d0c2412e41f")
+	)
+	(junction
+		(at 93.98 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "893f4b0f-c5b1-4506-a457-424058fc38e7")
 	)
 	(junction
 		(at 53.34 95.25)
@@ -641,7 +659,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 85.09) (xy 99.06 85.09)
+			(xy 87.63 85.09) (xy 93.98 85.09)
 		)
 		(stroke
 			(width 0)
@@ -671,7 +689,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 60.96) (xy 54.61 60.96)
+			(xy 59.69 60.96) (xy 54.61 60.96)
 		)
 		(stroke
 			(width 0)
@@ -721,7 +739,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 87.63) (xy 93.98 87.63)
+			(xy 87.63 87.63) (xy 92.71 87.63)
 		)
 		(stroke
 			(width 0)
@@ -771,7 +789,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 58.42) (xy 53.34 58.42)
+			(xy 59.69 58.42) (xy 53.34 58.42)
 		)
 		(stroke
 			(width 0)
@@ -798,6 +816,16 @@
 			(type default)
 		)
 		(uuid "791af7cd-13d6-486c-934a-72c94ad8e76e")
+	)
+	(wire
+		(pts
+			(xy 86.36 63.5) (xy 91.44 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7da985e5-cb01-487d-9d45-0f6be67e8f99")
 	)
 	(wire
 		(pts
@@ -828,6 +856,26 @@
 			(type default)
 		)
 		(uuid "90bbdd0b-b6f8-4ad1-bbe2-35bf636c4247")
+	)
+	(wire
+		(pts
+			(xy 91.44 63.5) (xy 91.44 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9550c5ae-ede5-45e9-9f1c-7eb591ed5a3d")
+	)
+	(wire
+		(pts
+			(xy 93.98 85.09) (xy 99.06 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "990002f0-6cad-4acf-afd1-e5eb128c8109")
 	)
 	(wire
 		(pts
@@ -871,6 +919,26 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 60.96) (xy 92.71 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5bc6bd1-5439-42f7-96c0-77b0e8e5b479")
+	)
+	(wire
+		(pts
+			(xy 86.36 58.42) (xy 93.98 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beec28f4-636e-4711-86b2-85cc397047d5")
+	)
+	(wire
+		(pts
 			(xy 142.24 95.25) (xy 154.94 95.25)
 		)
 		(stroke
@@ -898,6 +966,36 @@
 			(type default)
 		)
 		(uuid "dcf54e7a-be6c-41f1-a9b5-625ca6701484")
+	)
+	(wire
+		(pts
+			(xy 92.71 60.96) (xy 92.71 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed9496ca-2599-4d42-a03d-76b3292da112")
+	)
+	(wire
+		(pts
+			(xy 92.71 87.63) (xy 93.98 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef3396e4-79bc-44f8-947c-5a39d515a2d6")
+	)
+	(wire
+		(pts
+			(xy 93.98 58.42) (xy 93.98 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f05e1821-ef4f-42c1-a1eb-bd2a074d273a")
 	)
 	(wire
 		(pts
@@ -1186,7 +1284,7 @@
 		)
 	)
 	(sheet
-		(at 64.77 54.61)
+		(at 59.69 54.61)
 		(size 26.67 10.16)
 		(fields_autoplaced yes)
 		(stroke
@@ -1198,7 +1296,7 @@
 		)
 		(uuid "2168827a-beb7-4093-81fb-f68e70ab414e")
 		(property "Sheetname" "HalfBridge_Diff"
-			(at 64.77 53.8984 0)
+			(at 59.69 53.8984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1207,7 +1305,7 @@
 			)
 		)
 		(property "Sheetfile" "HalfBridge_Diff.kicad_sch"
-			(at 64.77 65.3546 0)
+			(at 59.69 65.3546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1216,7 +1314,7 @@
 			)
 		)
 		(pin "vcc" input
-			(at 64.77 58.42 180)
+			(at 59.69 58.42 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1226,7 +1324,7 @@
 			(uuid "47c63d49-690b-48c4-a7fd-3862830b6c2b")
 		)
 		(pin "gnd" input
-			(at 64.77 60.96 180)
+			(at 59.69 60.96 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1236,7 +1334,7 @@
 			(uuid "f22f3e7c-637b-4774-9de6-cb1ac1c10f59")
 		)
 		(pin "inb_d" output
-			(at 91.44 60.96 0)
+			(at 86.36 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1246,7 +1344,7 @@
 			(uuid "3d66a436-9054-4191-9344-473178ce52c3")
 		)
 		(pin "ina_d" output
-			(at 91.44 58.42 0)
+			(at 86.36 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1254,6 +1352,16 @@
 				(justify right)
 			)
 			(uuid "ab400ca8-4c21-4758-9e55-70ba768d2102")
+		)
+		(pin "inen_d" output
+			(at 86.36 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6919e6e5-02bb-4664-9fca-89033ecead6f")
 		)
 		(instances
 			(project "HalfBridge_SiC"
