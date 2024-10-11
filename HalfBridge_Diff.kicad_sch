@@ -1059,6 +1059,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 114.3) (xy 38.1 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68b8f217-0961-4ae3-b481-7c9623cb3435")
+	)
+	(wire
+		(pts
 			(xy 97.79 81.28) (xy 97.79 77.47)
 		)
 		(stroke
@@ -1309,7 +1319,7 @@
 		(uuid "05f18d32-c69f-4b0f-9fc4-a4149f388830")
 	)
 	(label "gnd"
-		(at 38.1 113.03 0)
+		(at 38.1 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1352,7 +1362,7 @@
 		)
 		(uuid "191382f3-b612-4a27-83b8-41587b74cec2")
 	)
-	(label "inb_da"
+	(label "inb_db"
 		(at 43.18 107.95 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1375,7 +1385,7 @@
 		(uuid "1bb113a3-393e-4a87-9038-a444929f1369")
 	)
 	(label "vcc"
-		(at 39.37 68.58 0)
+		(at 36.83 43.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1463,7 +1473,7 @@
 		(uuid "57f8d2f1-22bc-4bb9-9fee-2a0166d0e224")
 	)
 	(label "gnd"
-		(at 39.37 76.2 0)
+		(at 36.83 50.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1484,7 +1494,7 @@
 		)
 		(uuid "6892e582-7812-428e-8da5-69362c51f5d1")
 	)
-	(label "inb_db"
+	(label "inb_da"
 		(at 43.18 105.41 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1651,7 +1661,7 @@
 	)
 	(hierarchical_label "vcc"
 		(shape input)
-		(at 39.37 68.58 180)
+		(at 36.83 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1699,7 +1709,7 @@
 	)
 	(hierarchical_label "gnd"
 		(shape input)
-		(at 39.37 76.2 180)
+		(at 36.83 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1737,7 +1747,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "My_Connector:SAMTEC_T1M-02-F-SV-L-P"
+		(property "Footprint" "My_Connector:SAMTEC_T1M-02-F-SH-L-K"
 			(at 38.1 105.41 0)
 			(effects
 				(font
